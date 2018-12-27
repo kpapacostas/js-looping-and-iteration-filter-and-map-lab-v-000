@@ -5,7 +5,7 @@ driversWithRevenueOver = (drivers, revenue) => {
 }
 
 driverNamesWithRevenueOver = (drivers, revenue) => {
-  driversWithRevenueOver(drivers, revenue)  
+  console.log(driversWithRevenueOver(drivers, revenue))
 
 
 // return drivers.map( driver => {
