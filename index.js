@@ -11,7 +11,7 @@ driverNamesWithRevenueOver = (drivers, revenue) => {
 }
 
 exactMatch = (drivers, jSObj) => {
-  console.log(Object.keys(jSObj))
+  let property = Object.keys(jSObj)[0]
   return drivers.filter(driver =>{
     
   })
