@@ -17,4 +17,9 @@ exactMatch = (drivers, jSObj) => {
   })
 }
 
-exactMatchList = (drivers, )
+exactMatchList = (drivers, obj) => {
+  return exactMatch(drivers, obj).map( driver => {
+    return driver.name
+  }
+    )
+}
