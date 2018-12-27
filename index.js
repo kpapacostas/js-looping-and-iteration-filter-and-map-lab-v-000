@@ -5,10 +5,13 @@ driversWithRevenueOver = (drivers, revenue) => {
 }
 
 driverNamesWithRevenueOver = (drivers, revenue) => {
- return drivers.map( driver => {
-  if (driver.revenue >= revenue){
-    console.log(driver.name)
-    return driver.name 
-  } 
- }) 
+  driversWithRevenueOver(drivers, revenue)  
+
+
+// return drivers.map( driver => {
+//   if (driver.revenue >= revenue){
+//     console.log(driver.name)
+//     return driver.name 
+//   } 
+// }) 
 }
